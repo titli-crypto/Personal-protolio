@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Titli's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/37865124d2.js" crossorigin="anonymous"></script>
+
+<script src="main.js"></script>
+</head>
+  <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Cloud Computing & Networking</p>
+                <h1>Hi, I'm <span>Titli Dutta</span><br></h1>
+            </div>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p><br>Hello,I'm Titli Dutta, <br>I'm currently pursuing  B.Sc.(H) In Advance Networking & Cyber Security from Brainware University(2nd year).Highly interested in Cloud Networking and Networking.......</p>
+                  
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>AWS</span><br>S3 Bucket, EC2, Lamda, API,etc</li>
+                        
+                            <li><span>Windows Server's</span><br>Windows Server Handeling</li>
+                            <li><span>Linux </span><br>Redhat </li>
+                        </ul>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- --------------services-------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Experiences</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>AWS </h2>
+                    <p>Currently learning more featuers of AWS Cloud 
+                    </p>
+                    <a href="Images/AWS.pdf">See AWS Cloud Foundation Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-c"></i>
+                    <h2>Cyber Security</h2>
+                    <p>Learing Advanced Cyber Security : An Application Approach from tcsion and Also thankful to Brainware University.
+                    </p>
+                    <a href="Images/tcs.pdf">See Certificate</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>CISCO Networking</h2>
+                    <p>Learing Networking from CISCO Essentials</p>
+                    <a href="Images/Networking Essen-certificate.pdf" target="_blank">See Certificate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------contact-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>tit123@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>+919286402377</p>
+                <div class="social-icons">
+                    
+        
+                 
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+       
+    </div>
+</div>
+<a href="#" onclick="topFunction()" id="myBtn" class="myBtn hidden">&#x1F815;</a>
+
+    <script src="main.js"></script>
+  
+      <!-- -------------contact form end-------------- -->
+  </body>
+</html>
+
